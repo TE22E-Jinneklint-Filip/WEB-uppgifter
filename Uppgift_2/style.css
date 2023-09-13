@@ -1,0 +1,67 @@
+body {
+	background-image: url(img/winter-snow.jpg);
+    font-family: fantasy;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.huvud {
+	display: flex;
+	justify-content: space-between;
+
+	width: 100%;
+	border: 5px solid black;
+}
+
+.huvud h1 {
+	background-color: gray;
+	color: whitesmoke;
+}
+
+.lediga-dagar {
+	padding: 10px 25px;
+	background-color: gray;
+	border: 2px solid white;
+	color: white;
+	list-style: square;
+}
+
+.julafton {
+	color: red;
+	background-color: white;
+}
+
+.nyårsdagen {
+	background-color: gold;
+}
+
+.kalender {
+	text-align: center;
+	padding: 3px;
+	border: 5px solid black;
+}
+
+.kalender * {
+	border: 2px solid orangered;
+	border-collapse: collapse;
+}
+
+.kalender th {
+	background-color: gray;
+    font-size:larger;
+}
+
+.kalender td {
+background-color: antiquewhite;
+}
+
+.kalender .rdgr {
+	color: red;
+}
+
+.ner {
+	margin-top: 20px;
+	border: 5px solid black;
+}

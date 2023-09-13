@@ -1,0 +1,33 @@
+p{color: blanchedalmond;
+background-color: aqua;}
+.vit_text_svart_bak{
+color: white;
+background-color: black;
+font-family: 'Bebas Neue', sans-serif;
+
+}
+.box_modell{
+    border: 10px solid tomato;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.artikel_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 68px;
+    border: 3px chocolate;
+}
+
+.artikel{
+    max-width: 30%;
+min-width: 250px;
+border: 3px solid tomato;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
